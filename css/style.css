@@ -228,10 +228,14 @@ header nav ul li{
 
 @media screen and (max-width: 400px){
     .imgindex1{
+        display: flex;
+        justify-content: center;
         width: 270px;
     }
 
     .imgindex2{
+        display: flex;
+        justify-content: center;
         width: 270px;
     }
 }
