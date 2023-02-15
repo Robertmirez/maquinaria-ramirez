@@ -1,0 +1,52 @@
+/* HEADER */ 
+
+.grid-index{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "navbar navbar navbar"
+    "presentacion presentacion presentacion"
+    "titulo1 titulo1 titulo1"
+    "titulo2 titulo2 titulo2"
+    "texto1 texto1 img1"
+    "img2 texto2 texto2";
+}
+
+.navbar{
+    grid-area: navbar;
+    }
+
+.navinicio{
+    background-color: #16191A;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    a{
+        text-decoration: none;
+        h1{
+            color: #CEAD2C;
+            font-family: 'Sofia Sans Extra Condensed', sans-serif;
+            font-size: 60px;
+            transition: transform 0.3s ease-in-out;
+            &:hover{
+                fill-opacity: (0.9);
+                transform: scale(1.04);
+                    ul{
+                        list-style: none;
+                        display: flex;
+                        li{
+                            font-size: 25px;
+                            font-family: 'Sofia Sans Extra Condensed', sans-serif;
+                            a{
+                                color: #CEAD2C;
+                                text-decoration: none;
+                                margin: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

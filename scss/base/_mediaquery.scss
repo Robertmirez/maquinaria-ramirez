@@ -1,0 +1,161 @@
+/* MEDIAQUERY DEL HEADER */
+
+@media screen and (max-width: 440px){
+    .navinicio a h1{
+        font-size: 40px;
+    }
+}
+
+/* MEDIAQUERY DEL INDEX */
+
+@media screen and (max-width: 990px){
+    .grid-index{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "navbar navbar"
+        "presentacion presentacion"
+        "titulo1 titulo1"
+        "titulo2 titulo2"
+        "texto1 img1"
+        "img2 texto2"
+    }
+}
+
+@media screen and (max-width: 450px){
+    .grid-index{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "navbar "
+        "presentacion"
+        "titulo1"
+        "titulo2"
+    }
+
+    .imgindex1 img{
+        width: 380px;
+        height: 250px;
+    }
+
+    .imgindex2 img{
+        width: 340px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 380px){
+    .imgindex1{
+        padding: 10px 0px 10px;       
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    .imgindex2{
+        padding: 10px 0px 10px;
+        height: auto;        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img{
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+        }
+    }
+}
+
+/* MEDIAQUERY DEL FOOTER */ 
+@media screen and (max-width: 820px){
+
+    .footer-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) ;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "navfoot navfoot"
+        "titulo redes"
+    }
+
+    .footernav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 600px){
+
+    .footer-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) ;
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "navfoot"
+        "titulo"
+        "redes"
+    }
+
+    .redesfooter{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .fixed{
+        right: 20px;
+        bottom: 20px;
+}
+
+    .navinicio h1{
+        font-size: 30px;
+
+    }
+}
+
+@media screen and (max-width: 350px){
+    .navinicio h1{
+        font-size: 25px;
+    }
+}
+
+/* MEDIAQUERY DE NOSOTROS */
+
+@media screen and (max-width: 460px){
+    .imgNosotros1 img{
+        width: 350px;
+    }
+
+    .imgNosotros2 img{
+        width: 350px;
+    }
+}
+
+/* MEDIAQUERY DE SERVICIOS */ 
+
+@media screen and (max-width: 430px){
+    .cardservicios{
+        width: 350px;
+    }
+
+    .cardservicios img{
+        width: 300px;
+        margin: 5px;
+    }
+}
+
+
+
+
+

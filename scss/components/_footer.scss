@@ -1,0 +1,63 @@
+/* FOOTER */
+
+footer{
+    position: relative;
+    background-color: #16191A;
+    padding: 50px 0px 50px;
+    display: flex;
+    justify-content: space-evenly;
+    h4{
+        color: #CEAD2C;
+        font-size: 40px;
+        text-align: center;
+        margin: 5px;
+        font-family: 'Sofia Sans Extra Condensed', sans-serif;
+    }
+}
+
+footer img{
+    width: 45px;
+    height: 45px;
+    margin: 0px 10px;
+}
+
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "titulo redes navfoot"
+}
+
+.titulofooter{
+grid-area: titulo;
+}
+
+.fixed{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.redesfooter{
+grid-area: redes;
+}
+
+.footernav{
+    grid-area: navfoot;
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            padding: 10px;
+            font-family: 'Sofia Sans Extra Condensed', sans-serif;
+            font-size: 20px;
+            a{
+                text-decoration: none;
+                color: #CEAD2C;
+
+            }
+        }
+    }
+}
