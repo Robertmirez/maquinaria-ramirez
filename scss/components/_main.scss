@@ -1,4 +1,4 @@
-/* MAIN DEL INDEX */ 
+/* ------------ MAIN DEL INDEX ------------ */ 
 
 .presentacion {
     grid-area: presentacion; 
@@ -24,12 +24,12 @@
     margin: 10px 0px 10px;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 40px;
-    background-color: antiquewhite;
+    background-color: $color-primario-contenido
 }
 
 .sobre-nosotros{
     grid-area: titulo2;
-    background-color: aliceblue;
+    background-color: $color-secundario-contenido;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,7 +40,7 @@
 
 .txtindex1{
     grid-area: texto1;
-    background-color: antiquewhite;
+    background-color: $color-primario-contenido;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +64,7 @@
 
 .txtindex2{
     grid-area: texto2;
-    background-color: aliceblue;
+    background-color: $color-secundario-contenido;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -96,7 +96,7 @@
     height: 300px;
 }
 
-/* MAIN DE MÁQUINAS */
+/* ------------ MAIN DE MÁQUINAS ------------ */
 
 .titulomaquinas{
     text-align: center;
@@ -104,7 +104,7 @@
     h2{
         font-family: 'Sofia Sans Extra Condensed', sans-serif;
         font-size: 60px;
-        background-color: aliceblue;
+        background-color: $color-secundario-contenido;
     }
 }
 
@@ -112,7 +112,7 @@
     text-align: center;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 30px;
-    background-color: antiquewhite;
+    background-color: $color-primario-contenido;
 } 
 
 .grid-contenedor{
@@ -125,7 +125,7 @@
 }
 
 .box-img{
-    border: #16191A 1px solid;
+    border: $color-primario 1px solid;
     box-shadow: 5px 5px 10px;
     transition: transform 0.3s ease-in-out;
     &:hover{
@@ -144,18 +144,18 @@
     grid-row: span 2;
 }
 
-/* MAIN DE NOSOTROS */
+/* ------------ MAIN DE NOSOTROS ------------ */
 
 .h2nosotros{
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 60px;
     text-align: center;
-    background-color: aliceblue;
+    background-color: $color-secundario-contenido;
 }
 
 .nosotrosPrincipal{
     text-align: center;
-    background-color: antiquewhite;
+    background-color: $color-primario-contenido;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,7 +181,7 @@
 
 .nosotrosSecundario{
     text-align: center;
-    background-color: antiquewhite;
+    background-color: $color-primario-contenido;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,20 +217,20 @@
     box-shadow: 5px 5px 10px;
 }
 
-/* MAIN DE SERVICIOS */ 
+/* ------------ MAIN DE SERVICIOS ------------ */ 
 
 .presentacionservicios h2{
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 60px;
     text-align: center;
-    background-color: aliceblue;
+    background-color: $color-secundario-contenido;
 }
 
 .presentacionservicios p{
     text-align: center;
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 30px;
-    background-color: antiquewhite;
+    background-color: $color-primario-contenido;
 }
 
 .servicios{
@@ -241,7 +241,7 @@
 }
 
 .cardservicios{
-    border: solid black 1px;
+    border: solid $color-primario 1px;
     align-items: center;
     text-align: center;
     box-shadow: 5px 5px 15px;
@@ -257,20 +257,20 @@
     }
 }
 
-/* MAIN DE CONTACTO */
+/* ------------ MAIN DE CONTACTO ------------ */
 
 .h2contacto{
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 60px;
     text-align: center;
-    background-color: aliceblue;
+    background-color: $color-secundario-contenido;
 }
 
 .h3contacto{
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 40px;
     text-align: center;
-    background-color: antiquewhite;
+    background-color: $color-primario-contenido;
 }
 
 .cardform{
@@ -289,7 +289,7 @@
 .form{
     text-align: center;
     margin: 10px;
-    border: solid black 1px;
+    border: solid $color-primario 1px;
     box-shadow: 5px 5px 15px;
     width: 300px;
     padding: 5px;

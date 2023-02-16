@@ -18,7 +18,7 @@
     }
 
 .navinicio{
-    background-color: #16191A;
+    background-color: $color-primario;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -26,7 +26,7 @@
     a{
         text-decoration: none;
         h1{
-            color: #CEAD2C;
+            color: $color-textos;
             font-family: 'Sofia Sans Extra Condensed', sans-serif;
             font-size: 60px;
             transition: transform 0.3s ease-in-out;
@@ -40,7 +40,7 @@
                             font-size: 25px;
                             font-family: 'Sofia Sans Extra Condensed', sans-serif;
                             a{
-                                color: #CEAD2C;
+                                color: $color-textos;
                                 text-decoration: none;
                                 margin: 20px;
                         }
