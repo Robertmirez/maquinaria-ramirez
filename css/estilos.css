@@ -9,6 +9,25 @@ body {
   font-family: 'Sofia Sans Extra Condensed', sans-serif;
   font-size: 20px; }
 
+.nosotrosPrincipal, .imgNosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.imgNosotros {
+  padding: 10px; }
+
+/** MIXINS **/
+.txtindex2 {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.cardform {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 /* HEADER */
 .grid-index {
   display: grid;
@@ -190,16 +209,6 @@ body {
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 25px; }
 
-.imgNosotros1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  transition: transform 0.3s ease-in-out; }
-  .imgNosotros1:hover {
-    fill-opacity: 0.9;
-    transform: scale(1.04); }
-
 .nosotrosSecundario {
   text-align: center;
   background-color: antiquewhite;
@@ -212,22 +221,17 @@ body {
     font-family: 'Sofia Sans Extra Condensed', sans-serif;
     font-size: 25px; }
 
-.imgNosotros2 {
+.imgNosotros {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
   transition: transform 0.3s ease-in-out; }
-  .imgNosotros2:hover {
+  .imgNosotros:hover {
     fill-opacity: 0.9;
     transform: scale(1.04); }
 
-.imgNosotros1 img {
-  width: 450px;
-  height: 300px;
-  box-shadow: 5px 5px 10px; }
-
-.imgNosotros2 img {
+.imgNosotros img {
   width: 450px;
   height: 300px;
   box-shadow: 5px 5px 10px; }

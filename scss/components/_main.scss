@@ -167,18 +167,6 @@
     }
 }
 
-.imgNosotros1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    transition: transform 0.3s ease-in-out;
-    &:hover{
-        fill-opacity: (0.9);
-        transform: scale(1.04);
-    }
-}
-
 .nosotrosSecundario{
     text-align: center;
     background-color: $color-primario-contenido;
@@ -193,7 +181,7 @@
     }
 }
 
-.imgNosotros2{
+.imgNosotros{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -205,17 +193,13 @@
     }
 }
 
-.imgNosotros1 img{
+.imgNosotros img{
     width: 450px;
     height: 300px;
     box-shadow: 5px 5px 10px;
 }
 
-.imgNosotros2 img{
-    width: 450px;
-    height: 300px;
-    box-shadow: 5px 5px 10px;
-}
+
 
 /* ------------ MAIN DE SERVICIOS ------------ */ 
 

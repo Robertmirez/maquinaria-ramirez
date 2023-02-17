@@ -1,5 +1,51 @@
-
+//* VARIABLES *//
 $color-textos: #CEAD2C;
 $color-primario: #16191A; 
 $color-primario-contenido: antiquewhite;
 $color-secundario-contenido: aliceblue;
+
+
+//* LISTAS *//
+$colores:
+#CEAD2C,
+#16191A,
+antiquewhite,
+aliceblue,
+rgb(192, 0, 0),
+white,
+black;
+
+
+// * % EXTENDS *// 
+
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nosotrosPrincipal{
+    @extend %flex;
+
+}
+
+.imgNosotros{
+    padding: 10px;
+    @extend %flex;
+}
+
+/** MIXINS **/
+
+@mixin flex ($flex, $ejeX, $ejeY){
+    display: $flex;
+    justify-content: $ejeX;
+    align-items: $ejeY;
+}
+
+.txtindex2{
+    @include flex (flex, center, center)
+}
+
+.cardform{
+    @include flex (flex, center, center)
+}
